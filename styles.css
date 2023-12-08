@@ -1,0 +1,71 @@
+/* Couleurs pour les réponses correctes et incorrectes */
+.correct {
+  background-color: #c8f7c5;
+}
+
+.incorrect {
+  background-color: #f7c5c5;
+}
+
+/* Style pour la boîte d'alerte de résultat */
+#alert {
+  display: none;
+  background-color: #bef4a3;
+  padding: 10px;
+  border-radius: 5px; /* Coins arrondis */
+  position: fixed; /* Position fixe */
+  bottom: 397px; /* À 397 pixels du bas */
+  left: 1255px; /* À 1255 pixels de la gauche */
+  right: 435px; /* À 435 pixels de la droite */
+  max-width: 160px; /* Largeur maximale */
+  text-align: center; /* Alignement du texte au centre */
+}
+
+/* Style pour le texte "Congratulations!!" à l'intérieur de la boîte d'alerte */
+.alert-title {
+  color: #255b06;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: century;
+}
+
+/* Style pour le texte "You got them all right!" à l'intérieur de la boîte d'alerte */
+#alert .subtitle {
+  color: #255b06;
+  font-size: 12px;
+  font-family: century;
+}
+
+/* Style pour le formulaire */
+#quiz-form {
+  width: 525px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style pour les éléments de question */
+.question-item {
+  margin-bottom: 20px;
+}
+
+/* Style pour les éléments de réponse */
+.answer-item {
+  margin-bottom: 10px;
+}
+
+/* Style pour le bouton de soumission */
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
